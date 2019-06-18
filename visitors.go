@@ -28,7 +28,7 @@ func visitAllParallel(r *root, n *node, visitor func(value)) {
 
 func (r *root) VisitAll(visitor func(value)) {
 	curr := &r.node
-	offsets := intintmap.New(1, .99)
+	offsets := intintmap.New(r.values/2, .96)
 outerLoop:
 	for {
 		offset, ok := offsets.Get(curr.offsetID())
