@@ -1,3 +1,7 @@
+// typesafe version of fasthttp/stackless
+// pool. Licensed under fasthttp license,
+// which is also Apache 2.0.
+
 package main
 
 import (
